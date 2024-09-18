@@ -38,7 +38,24 @@
             </header>
             <p> Si us plau facilita'ns les teves dades </p>
             <form method="post" action="">
-                <!-- completa -->
+                Nom complet: <input type="text" name="nom" /><br />
+                Password: <input type="password" name="clau" /><br />
+                Grau:
+                <select name="grau">
+                    <option value="I">Enginyeria Informàtica</option>
+                    <option value="T">Enginyeria de Sistemes de Telecomunicació</option>
+                    <option value="E">Enginyeria Electrònica de Telecomunicació</option>
+                    <option value="Q">Enginyeria Química</option>
+                </select>
+                <p>Tria la menció que t'atreu més:<p>
+                    <select name="mencio">
+                    <option value="S">Enginyeria del software</option>
+                    <option value="A">Enginyeria de computadors</option>
+                    <option value="C">Computació</option>
+                    <option value="I">Tecnologies de la informació</option>
+                </select>
+                <br /><br />
+                <input type="submit" value="Registrar-me" />
             </form>
             <hr />
         </section>
